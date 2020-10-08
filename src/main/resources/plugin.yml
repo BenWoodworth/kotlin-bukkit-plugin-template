@@ -1,0 +1,23 @@
+name: MyPlugin #TODO Change plugin name
+author: Me #TODO Change author
+version: 1.0 #TODO Change version
+website: https://www.example.com/ #TODO Change website
+description: My plugin #TODO Change plugin description
+
+main: MyPlugin #TODO Change main plugin class (e.g. my.package.MyPlugin)
+api-version: 1.16 #TODO Change api-version (e.g. 1.16)
+
+#commands: #TODO Add commands
+#  command-name:
+#    description: A command
+#    aliases: []
+#    permission: a.b.c
+#    permission-message: You do not have /<permission>
+#    usage: /<command>
+
+#permissions: #TODO Add permissions
+#  a.permission:
+#    description: A permission
+#    default: false #true, false, op, not op
+#    children:
+#      a.child.permission: true
