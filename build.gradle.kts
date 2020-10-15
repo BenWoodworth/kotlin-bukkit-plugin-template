@@ -32,8 +32,13 @@ tasks.shadowJar {
     archiveClassifier.set("")
 
     dependencies {
+        include(project(":"))
         include(dependency("org.jetbrains.kotlin:kotlin-stdlib"))
         include(dependency("org.jetbrains.kotlin:kotlin-stdlib-jdk8"))
+    }
+
+    minimize {
+        exclude(project(":"))
     }
 
     relocate("kotlin", "<package>.libs.kotlin") //TODO Change package
